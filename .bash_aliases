@@ -1,0 +1,5 @@
+alias l='ls -lh'
+alias c='clear'
+alias cd..='cd ..'
+alias g='grep -rIn'
+alias r='ranger'
