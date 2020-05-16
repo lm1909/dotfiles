@@ -19,6 +19,7 @@ Plugin 'tpope/vim-commentary'
 Plugin 'itchyny/lightline.vim'
 Bundle 'edkolev/tmuxline.vim'
 Plugin 'ntpeters/vim-better-whitespace'
+Plugin 'mbbill/undotree'
 " tmuxline requires powerline font (https://github.com/powerline/fonts) to work correctly, creates file ~/.tmuxlinesnapshot
 " <============================================>
 " All of your Plugins must be added before the following line
