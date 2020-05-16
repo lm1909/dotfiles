@@ -109,7 +109,7 @@ stty -ixon
 [ -f ~/.fzf.bash ] && source ~/.fzf.bash
 
 # dotfile git management & synchro via https://www.atlassian.com/git/tutorials/dotfiles, (using .dotfiles instead of .cfg and dotfiles instead of config)
-alias config='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
+alias dotfiles='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
 
 # go directly into tmux at startup - https://unix.stackexchange.com/questions/43601/how-can-i-set-my-default-shell-to-start-up-tmux
 if command -v tmux &> /dev/null && [ -n "$PS1" ] && [[ ! "$TERM" =~ screen ]] && [[ ! "$TERM" =~ tmux ]] && [ -z "$TMUX" ]; then
