@@ -115,3 +115,6 @@ alias dotfiles='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
 if command -v tmux &> /dev/null && [ -n "$PS1" ] && [[ ! "$TERM" =~ screen ]] && [[ ! "$TERM" =~ tmux ]] && [ -z "$TMUX" ]; then
   exec tmux
 fi
+
+# allow for vtune-gui / vtune commands - https://software.intel.com/content/www/us/en/develop/documentation/vtune-help/top/launch.html
+source /opt/intel/vtune_profiler/env/vars.sh
