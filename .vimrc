@@ -61,8 +61,6 @@ set background=dark
 " so lightline doesnt show a second bar
 set noshowmode
 
-let g:tmuxline_preset = 'full'
-
 " intellisense like text completion
 filetype plugin on
 set omnifunc=syntaxcomplete#Complete
