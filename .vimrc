@@ -14,6 +14,7 @@ Plugin 'VundleVim/Vundle.vim'
 " Specify the plugins you want to install here.
 " We'll come on that later
 Plugin 'tpope/vim-fugitive'
+Plugin 'RltvNmbr.vim'
 Plugin 'zxqfl/tabnine-vim'
 Plugin 'tpope/vim-commentary'
 Plugin 'itchyny/lightline.vim'
