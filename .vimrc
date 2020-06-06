@@ -81,4 +81,7 @@ let g:tmuxline_preset = {
 set number
 set cursorline
 
+" auto-enable the RltvNmbr.vim Plugin on startup, using the answer from https://stackoverflow.com/questions/6821033/vim-how-to-run-a-command-immediately-when-starting-vim
+autocmd VimEnter * RltvNmbr
+
 set foldmethod=syntax
