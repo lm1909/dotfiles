@@ -118,6 +118,8 @@ fi
 
 # allow for vtune-gui / vtune commands - https://software.intel.com/content/www/us/en/develop/documentation/vtune-help/top/launch.html
 source /opt/intel/vtune_profiler/env/vars.sh
+# allow for intel c compiler
+source /opt/intel/compilers_and_libraries/linux/bin/compilervars.sh intel64
 
 # enable fzf as fuzzy finder for command history etc. if fzf installed via apt - for details see /usr/share/doc/fzf/README.Debian
 source /usr/share/doc/fzf/examples/key-bindings.bash
