@@ -123,3 +123,6 @@ source /opt/intel/compilers_and_libraries/linux/bin/compilervars.sh intel64
 
 # enable fzf as fuzzy finder for command history etc. if fzf installed via apt - for details see /usr/share/doc/fzf/README.Debian
 source /usr/share/doc/fzf/examples/key-bindings.bash
+
+# install z (https://github.com/rupa/z)
+. /usr/local/bin/z.sh
