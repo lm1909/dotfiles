@@ -23,6 +23,7 @@ Bundle 'edkolev/tmuxline.vim'
 Plugin 'ntpeters/vim-better-whitespace'
 Plugin 'mbbill/undotree'
 Plugin 'ludovicchabant/vim-gutentags'
+Plugin 'lervag/vimtex'
 " <============================================>
 " All of your Plugins must be added before the following line
 
