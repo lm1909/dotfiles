@@ -86,3 +86,11 @@ set cursorline
 autocmd VimEnter * RltvNmbr
 
 set foldmethod=syntax
+
+"convenience function to insert line numbers into the text
+function! LineNumberInsert()
+    :%s/^/\=printf('%-4d', line('.'))
+endfunction
+
+"enable spellcheck
+set spell
