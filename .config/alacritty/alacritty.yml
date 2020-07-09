@@ -42,4 +42,7 @@ colors:
         white:   '#ECEFF4'
 
 font:
-    size: 9.5
+    size: 8.5
+
+key_bindings:
+    - {key: I, mods: Control, command: {program: "alacritty-invert-colours"}}
