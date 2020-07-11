@@ -116,12 +116,17 @@ if command -v tmux &> /dev/null && [ -n "$PS1" ] && [[ ! "$TERM" =~ screen ]] &&
   exec tmux
 fi
 
-# allow for vtune-gui / vtune commands - https://software.intel.com/content/www/us/en/develop/documentation/vtune-help/top/launch.html
-source /opt/intel/vtune_profiler/env/vars.sh
-# allow for intel c compiler
-source /opt/intel/compilers_and_libraries/linux/bin/compilervars.sh intel64
-# for intel advisor
-source /opt/intel/advisor/advixe-vars.sh > /dev/null
+# old. now with oneAPI
+# # allow for vtune-gui / vtune commands - https://software.intel.com/content/www/us/en/develop/documentation/vtune-help/top/launch.html
+# source /opt/intel/vtune_profiler/env/vars.sh
+# # allow for intel c compiler
+# source /opt/intel/compilers_and_libraries/linux/bin/compilervars.sh intel64
+# # for intel advisor
+# source /opt/intel/advisor/advixe-vars.sh > /dev/null
+# # for intel thread building block library
+# source /opt/intel/compilers_and_libraries_2020/linux/tbb/bin/tbbvars.sh intel64
+#oneAPI
+source /opt/intel/inteloneapi/setvars.sh > /dev/null
 
 # enable fzf as fuzzy finder for command history etc. if fzf installed via apt - for details see /usr/share/doc/fzf/README.Debian
 source /usr/share/doc/fzf/examples/key-bindings.bash
