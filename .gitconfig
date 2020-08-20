@@ -3,3 +3,7 @@
 	email = cyteroxsoftware@gmail.com
 [color]
 	ui = auto
+[difftool "fugitive"]
+    cmd = vimdiff $LOCAL $MERGED $REMOTE
+    trustExitCode = false
+    keepBackup = false

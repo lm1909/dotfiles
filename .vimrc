@@ -24,6 +24,7 @@ Plugin 'ntpeters/vim-better-whitespace'
 Plugin 'mbbill/undotree'
 Plugin 'ludovicchabant/vim-gutentags'
 Plugin 'lervag/vimtex'
+Plugin 'luochen1990/rainbow'
 " <============================================>
 " All of your Plugins must be added before the following line
 
@@ -94,3 +95,24 @@ endfunction
 
 "enable spellcheck
 set spell
+
+" fugitive merge keys
+nmap <leader>gf :diffget //2<CR>
+nmap <leader>gj :diffget //3<CR>
+
+" enable shell escape for vim-latex (for minted package)
+let g:vimtex_compiler_latexmk = {
+    \ 'options' : [
+    \   '-pdf',
+    \   '-shell-escape',
+    \   '-verbose',
+    \   '-file-line-error',
+    \   '-synctex=1',
+    \   '-interaction=nonstopmode',
+    \   '--file-line-error',
+    \ ],
+    \}
+
+set clipboard=unnamedplus
+
+let g:rainbow_active = 1
