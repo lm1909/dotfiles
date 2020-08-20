@@ -17,4 +17,4 @@ switch_colours() {
 # switch_colours blue yellow
 
 # This switches between two color themes
-switch_colours *dark *light
+switch_colours *nord *light
