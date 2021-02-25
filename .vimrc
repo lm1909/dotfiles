@@ -13,6 +13,9 @@ Plugin 'VundleVim/Vundle.vim'
 " <============================================>
 " Specify the plugins you want to install here.
 " We'll come on that later
+" the nord color theme - however this doesnt immediately work with lightline
+" and breaks the tmuxline construction
+" Plugin 'arcticicestudio/nord-vim'
 Plugin 'tpope/vim-fugitive'
 Plugin 'RltvNmbr.vim'
 Plugin 'zxqfl/tabnine-vim'
