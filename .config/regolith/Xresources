@@ -1,0 +1,18 @@
+Xft.dpi: 180
+
+i3-wm.gaps.inner.size: 0
+i3-wm.window.border.size: 1
+
+/* this is a border color for the focused window  https://www.nordtheme.com/*/
+/* i3-wm.client.focused.color.border: #88C0D0 */
+/* i3-wm.client.focused.color.background: #88C0D0 */
+/* i3-wm.client.focused.color.text: #88C0D0 */
+/* i3-wm.client.focused.color.indicator: #88C0D0 */
+/* i3-wm.client.focused.color.child_border: #88C0D0 */
+
+/* this causes the yellow focused window highlight, color from nord theme https://www.nordtheme.com/*/
+i3-wm.client.focused.color.border: #EBCB8B
+i3-wm.client.focused.color.background: #EBCB8B
+i3-wm.client.focused.color.text: #EBCB8B
+i3-wm.client.focused.color.indicator: #EBCB8B
+i3-wm.client.focused.color.child_border: #EBCB8B
