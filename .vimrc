@@ -105,6 +105,7 @@ nmap <leader>gj :diffget //3<CR>
 
 " enable shell escape for vim-latex (for minted package)
 let g:vimtex_compiler_latexmk = {
+    \ 'build_dir' : './build',
     \ 'options' : [
     \   '-pdf',
     \   '-shell-escape',
