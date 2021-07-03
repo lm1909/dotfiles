@@ -67,6 +67,9 @@ set background=dark
 " so lightline doesnt show a second bar
 set noshowmode
 
+" spellcheck: use both german and british english
+set spelllang=en_gb,de_de
+
 " intellisense like text completion
 filetype plugin on
 set omnifunc=syntaxcomplete#Complete
