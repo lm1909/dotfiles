@@ -5,3 +5,4 @@ alias g='grep -rIni'
 alias r='ranger'
 
 alias zat='zathura'
+alias clip='xclip -sel clip'
