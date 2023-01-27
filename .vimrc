@@ -99,9 +99,6 @@ function! LineNumberInsert()
     :%s/^/\=printf('%-4d', line('.'))
 endfunction
 
-"enable spellcheck
-set spell
-
 " fugitive merge keys
 nmap <leader>gf :diffget //2<CR>
 nmap <leader>gj :diffget //3<CR>
